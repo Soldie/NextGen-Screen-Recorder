@@ -1,0 +1,1 @@
+This project is currently devoloping. Don't download this if you want a Working application now. Currently this project dont even have the basic functionality. We will Update the Project Soon. If you would Like to contribute you are welcome.

@@ -5,7 +5,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NextGen_Screen_Recorder
@@ -21,15 +20,12 @@ namespace NextGen_Screen_Recorder
 
         public ImageViewer(Image Image)
         {
-            this.Image = Image;
-            InitializeComponent();
-            pictureBox1.Image = Image;
-            Dirty = true;
+
         }
 
         private void ImageViewer_Load(object sender, EventArgs e)
         {
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
@@ -45,8 +41,7 @@ namespace NextGen_Screen_Recorder
 
         private void ImageViewer_Resize(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image;
-            pictureBox1.Refresh();
+
         }
     }
 }

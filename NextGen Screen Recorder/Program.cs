@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NextGen_Screen_Recorder
@@ -16,8 +15,7 @@ namespace NextGen_Screen_Recorder
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Prefs.ReadPrefs();
-            Application.Run(new Form1());
+            Application.Run(new PrefsEditor());
         }
     }
 }
